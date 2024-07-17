@@ -22,7 +22,7 @@ jobs:
     steps:
       -  run: |
             echo " ${{}github.action_repository}} triggered by ${{ github.event_name}}"
-            echo " building "
+            
             
   # This workflow contains a single job called "build"
   build:
