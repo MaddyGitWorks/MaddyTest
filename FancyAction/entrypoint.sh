@@ -2,6 +2,6 @@
 
 echo "hi $1"
 
-echo "time is $(data)" >> $GITHUB_OUTPUT
+echo "time is $(date)" >> $GITHUB_OUTPUT
 
 echo "$(date) $1" >> $GITHUB_STEP_SUMMARY
