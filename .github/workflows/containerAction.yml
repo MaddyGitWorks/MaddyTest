@@ -9,6 +9,10 @@ on:
       name:
         description: "who are you?"
         type: string
+      environment:
+        description: 'Environment to deploy to'
+        type: environment
+        required: true
 jobs:
   test-my-action:
     runs-on: ubuntu-latest
